@@ -1,0 +1,9 @@
+
+
+
+.about{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}

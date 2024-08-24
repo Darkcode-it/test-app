@@ -1,0 +1,27 @@
+
+.skill{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    flex-wrap: wrap;
+
+
+
+}
+.singleSkill{
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow:1px 1px 1px #282c34;
+    margin: 10px;
+}
+.singleSkill:hover{
+    font-size: 28px;
+    transition: ease 1s;
+    box-shadow: 1px 1px 9px rgba(233,233,235);
+}
+.image{
+    width: 70%;
+    height: 150px;
+}

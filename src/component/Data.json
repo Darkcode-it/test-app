@@ -1,0 +1,45 @@
+{
+  "title": "Hello Im ",
+  "subtitle": "Front-end development",
+  "link": {
+    "github": "https://github.com/Darkcode-it",
+    "telegram": "https://t.me/Darkcodeit"
+  },
+  "data": [
+    {
+    "id": 1,
+    "logo": "images/Network.png",
+    "title": "Network+"
+  },
+    {
+      "id": 2,
+      "logo": "images/html.png",
+      "title": "HTML"
+    },
+    {
+      "id": 3,
+      "logo": "images/css.png",
+      "title": "Css"
+    },
+    {
+      "id": 4,
+      "logo": "images/js.png",
+      "title": "JS"
+    },
+    {
+      "id": 5,
+      "logo": "images/react.png",
+      "title": "React"
+    },
+    {
+      "id": 6,
+      "logo": "images/Linux.png",
+      "title": "linux"
+    },
+    {
+      "id": 7,
+      "logo": "images/Python.png",
+      "title": "Python"
+    }
+  ]
+}
