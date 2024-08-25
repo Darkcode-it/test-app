@@ -10,7 +10,7 @@ export default function Skill() {
             <div className="skill">
                 {data.data.map((data) => (
                     <div className="singleSkill" key={data.id}>
-                        <img src={`${data.logo}`} className="image"/>
+                        <img src={process.env.PUBLIC_URL + '/' + data.logo} className="image" alt={data.title}/>
                         <h4>{data.title}</h4>
                     </div>
                 ))}
