@@ -33,12 +33,12 @@
     },
     {
       "id": 6,
-      "logo": "images/Linux.png",
+      "logo": "images/linux.png",
       "title": "linux"
     },
     {
       "id": 7,
-      "logo": "images/Python.png",
+      "logo": "images/python.png",
       "title": "Python"
     }
   ]
