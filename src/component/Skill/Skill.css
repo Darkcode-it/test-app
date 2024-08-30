@@ -17,11 +17,17 @@
     margin: 10px;
 }
 .singleSkill:hover{
-    font-size: 28px;
+    font-size: 25px;
     transition: ease 1s;
     box-shadow: 1px 1px 9px rgba(233,233,235);
+
+display: block;
+    filter:drop-shadow(0 0 10px #fffedf);
+    transform: rotate(1turn);
+
+
 }
 .image{
     width: 70%;
-    height: 150px;
+    height: 140px;
 }

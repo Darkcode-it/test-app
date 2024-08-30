@@ -49,10 +49,26 @@ body {
     transform: rotate(360deg);
   }
 }
-.container{margin: 0 160px;}
+.container{
+  margin: 0 160px;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-gap: 10px;
+  width: 100%;
+
+}
+h1,h2,h3,h4,h5,h6{
+  padding-left: 8px;
+}
+
+
 
 ol li {list-style: none;}
 
 a { text-decoration: none;color: black;}
 
 a:hover{color: rgb(27, 123, 143);}
+
+
+@media only screen and (min-width: 600px) {}
+@media only screen and (min-width:600px) and (max-width: 900px) {}
+@media only screen and (min-width:900px) {}
