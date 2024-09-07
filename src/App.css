@@ -56,9 +56,9 @@ body {
   width: 100%;
 
 }
-h1,h2,h3,h4,h5,h6{
-  padding-left: 8px;
-}
+/*h1,h2,h3,h4,h5,h6{*/
+/*  padding-left: 8px;*/
+/*}*/
 
 
 
@@ -69,6 +69,10 @@ a { text-decoration: none;color: black;}
 a:hover{color: rgb(27, 123, 143);}
 
 
-@media only screen and (min-width: 600px) {}
-@media only screen and (min-width:600px) and (max-width: 900px) {}
-@media only screen and (min-width:900px) {}
+@media only screen and (max-width: 600px) and (orientation: landscape) {}
+
+
+
+@media only screen and (min-width:601px) and (max-width: 900px) {}
+
+@media only screen and (min-width:900px) and (max-width: 1080px) {}
