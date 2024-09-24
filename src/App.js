@@ -7,9 +7,12 @@ import About from "./component/About/About";
 function App () {
   return (
     <div className="App">
-        <Home/>
-        <Skill/>
-        <About/>
+        <main>
+            <Home/>
+            <Skill/>
+            <About/>
+        </main>
+
    </div>
   );
 }

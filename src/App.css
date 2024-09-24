@@ -50,7 +50,7 @@ body {
   }
 }
 .container{
-  margin: 0 160px;
+
   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
   grid-gap: 10px;
   width: 100%;
@@ -68,11 +68,67 @@ a { text-decoration: none;color: black;}
 
 a:hover{color: rgb(27, 123, 143);}
 
+/* Typography */
 
-@media only screen and (max-width: 600px) and (orientation: landscape) {}
+html {
+  font-family: 'Roboto', sans-serif;
+}
 
+@media (min-width: 576px) {
+  html {
+    font-size: 14px;
+  }
+}
 
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
 
-@media only screen and (min-width:601px) and (max-width: 900px) {}
+@media (min-width: 992px) {
+  html {
+    font-size: 18px;
+  }
+}
 
-@media only screen and (min-width:900px) and (max-width: 1080px) {}
+@media (min-width: 1200px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+.icons-social i {
+  font-size: 2em;
+}
+
+/* Custom Styles */
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  padding: 0 30px;
+  text-align: center;
+}
+
+main > .intro {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 3.75em;
+  font-weight: 600;
+}
+
+main > .tagline {
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  font-weight: 100;
+}
+
+.icons-social i {
+  padding: 7px;
+}
+
+.icons-social a {
+  text-decoration: none;
+}

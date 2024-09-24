@@ -1,7 +1,7 @@
 
 .skill{
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     margin-top: 20px;
     font-weight: normal;
     font-family: 'Courier New', Courier, monospace;
@@ -20,10 +20,9 @@
     font-size: 25px;
     transition: ease 1s;
     box-shadow: 1px 1px 9px rgba(233,233,235);
-
-display: block;
+    /*display: block;*/
     filter:drop-shadow(0 0 10px #fffedf);
-    transform: rotate(1turn);
+
 
 
 }
