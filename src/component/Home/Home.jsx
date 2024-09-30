@@ -13,7 +13,7 @@ export default function Home(props) {
                 </ol>
             </div>
             <div>
-                <h1 className="title">{data.title}<h1 style={{color: "aqua", fontSize: "25px"}}>Ahmad Rasuli</h1></h1>
+                <h1 className="title">{data.title}<h1 style={{color: "aqua", fontSize: "25px"}}>Musa Rahd</h1></h1>
                 <h2 className="subtitle">{data.subtitle}</h2>
             </div>
             <div className="icon">
