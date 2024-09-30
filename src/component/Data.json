@@ -3,7 +3,8 @@
   "subtitle": "Front-end development",
   "link": {
     "github": "https://github.com/Darkcode-it",
-    "telegram": "https://t.me/Darkcodeit"
+    "telegram": "https://t.me/Darkcodeit",
+    "instagram": "https://https://www.instagram.com/musarahdit?igsh=eW4weGpjdWFjYncz&utm_source=qr"
   },
   "data": [
     {
@@ -33,13 +34,24 @@
     },
     {
       "id": 6,
+      "logo": "images/python.png",
+      "title": "Python"
+    },
+    {
+      "id": 7,
       "logo": "images/linux.png",
       "title": "linux"
     },
     {
-      "id": 7,
-      "logo": "images/python.png",
-      "title": "Python"
+      "id": 8,
+      "logo": "images/mac.png",
+      "title": "MacOS "
+    },
+    {
+      "id": 9,
+      "logo": "images/tls.png",
+      "title": "TailsOS"
     }
+
   ]
 }
